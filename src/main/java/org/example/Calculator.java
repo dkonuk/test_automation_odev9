@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Calculator {
-
+// Throws exception if user enters a letter instead of a number
     public static void main(String[] args) throws WrondInputException {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter first number: ");
